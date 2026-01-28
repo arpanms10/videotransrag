@@ -24,7 +24,7 @@ public class VideoIngestionService implements CommandLineRunner{
 		@Override
 		public void run(String... args) throws Exception {
 
-			String link = "https://www.youtube.com/watch?v=AcDnSLYdhbQ";
+			/* String link = "https://www.youtube.com/watch?v=AcDnSLYdhbQ";
 			
 			long count = vectorStore.similaritySearch("*").size();
 			log.info("result size  : {}", count);
@@ -32,7 +32,7 @@ public class VideoIngestionService implements CommandLineRunner{
 			if(count == 0){
 				videoTransService.processing(link);
 			 log.info("Video processesing starts " );
-			}
+			} */
 		}
 	
 	
